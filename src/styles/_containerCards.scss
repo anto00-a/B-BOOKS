@@ -1,0 +1,24 @@
+@import 'card';
+
+
+.container{
+    background-color:#EDF1F4;
+    width: 100%;
+    min-height:800px;
+    border: 1px solid #EDF1F4;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 75%;
+    margin: 20px auto;
+    min-height: 700px;
+    & .crd-cnt{
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        width: 100%;
+        min-height: 700px;
+    }
+}

@@ -1,0 +1,52 @@
+
+table{
+    background-color: darkseagreen;
+    border: 2px solid darkslategray;
+    margin: 50px auto;
+    border-collapse: collapse;
+    width: 95%;
+
+}
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    & a{
+    position: absolute;
+    left: 10px;
+    color: white;
+    width: 50px;
+    text-align: center;
+    border-radius: 12px;
+    background-color: darkgreen;
+        & svg{
+            padding-top: 3px;
+        }
+    }
+}
+th,td{
+    text-align: left;
+    padding: 15px;
+    border: 2px solid darkslategray;
+    width: 50%;
+    
+    vertical-align: top;
+}
+.image{
+    text-align: center;
+}
+
+
+@media screen and (max-width:770px) {
+    
+    .title{
+        align-items: center;
+        a{
+            width: 135px;
+            height: 28px;
+            position: relative;
+            left: 0;
+        }
+    }
+}

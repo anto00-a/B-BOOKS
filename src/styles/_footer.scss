@@ -1,0 +1,30 @@
+.footer{
+    height: 150px;
+    background: grey;
+    display: flex;
+    align-items: center;
+    color: #ffff;
+    font-size: 17px;
+    width: 100%;
+    
+    .copy{
+        position: absolute;
+        left: 45px;
+    }
+    p{
+        margin: auto;
+        & svg{
+            color: red;
+        }
+    }
+}
+
+@media screen and (max-width:770px) {
+    .footer{
+        flex-flow: column;
+        .copy{
+            position: relative;
+            left: 0;
+        }
+    }
+}

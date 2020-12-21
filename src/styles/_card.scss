@@ -1,0 +1,78 @@
+.card-size{
+    width: 33.333333%;
+}
+.card{
+    position: relative;
+    width: 285px;
+    height: 420px;
+    background-color: darkseagreen;
+    margin: 20px auto;
+    & img{
+        width: 100%;
+        height: 56%;
+        
+    }
+    & h2{
+        font-size: 17px;
+        padding-left: 15px;
+    }
+    & p{
+        padding-top: 10px;
+        font-size: 14px;
+        padding-left: 15px;
+    }
+    & a{
+        color: black;
+    }    
+}
+.icon{
+    position: absolute;
+    left: 15px;
+    bottom: 9px;
+    color: white;
+    & :hover{
+        color: red;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+}
+
+.more{
+    position: absolute;
+    right: 10px;
+    bottom: 8px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: darkgreen;
+    outline: none;
+    border: none;
+    height: 25px;
+    color: white;
+    padding: 2px;
+    align-items: center; 
+    &:hover{
+        background-color: rgb(8, 139, 4);
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    & p{
+        padding: 0px 2px;
+    }
+    & svg{
+        color:white;
+        height: 17px !important;
+        
+    }
+}
+
+
+@media screen and (max-width:1160px) {
+    .card-size{
+        width:50%
+    }
+}
+@media screen and (max-width:767px) {
+    .card-size{
+        width:100%
+    }
+}
