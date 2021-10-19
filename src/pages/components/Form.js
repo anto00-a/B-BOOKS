@@ -26,7 +26,7 @@ const Form = () => {
         setSearch(e.target.value)
     }
     const getData =(e)=>{
-        axios.get(`https://www.googleapis.com/books/v1/volumes?q=${search}:keyes&key=${API_KEY}&maxResults=${maxResult}&printType=${print}&filter=${ebook}`)
+        axios.get(`https://www.googleapis.com/books/v1/volumes?q=${search}:keyes&key=AIzaSyCpMNo1aQJf1otwqgEIK-21JRv6fEd9H9M&maxResults=${maxResult}&printType=${print}&filter=${ebook}`)
         .then(function (response) {
         setData(response.data.items)
         })
