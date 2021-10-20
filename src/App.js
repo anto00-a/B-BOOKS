@@ -30,10 +30,10 @@ function App() {
         <Switch>
           <Route exact path='/Home' component={Home}/>    
           <Route exact path='/BookInfo/:id' component={BookInfo}/>
-          <Route exact path='/'>
+          <Route  path='/'>
             <Redirect to='/Home'></Redirect>
           </Route>
-          <Route exact path='*' component={Error}/>
+          
         </Switch>
         <Footer/>
       </div>

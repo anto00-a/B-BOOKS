@@ -1,5 +1,5 @@
 import React,{useContext} from 'react';
-import Link from 'react-router-dom/Link'
+import {Link} from 'react-router-dom'
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import {checkPrice, createDescMarkup,checkCategories,checkLanguage,checkAuthors,checkPublishedDate,checkPublisher} from './BookInfoCheck';
 import {PrintContext} from '../../Context/PrintContext';

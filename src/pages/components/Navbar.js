@@ -1,5 +1,5 @@
 import React,{useContext} from 'react';
-import Link from 'react-router-dom/Link';
+import {Link} from 'react-router-dom';
 import Form from './Form';
 import {PrintContext} from '../../Context/PrintContext';
 import {EbookContext} from '../../Context/EbookContext';
