@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/B-BOOKS/static/css/main.8be11bb2.chunk.css",
+    "main.js": "/B-BOOKS/static/js/main.10b03723.chunk.js",
+    "main.js.map": "/B-BOOKS/static/js/main.10b03723.chunk.js.map",
+    "runtime-main.js": "/B-BOOKS/static/js/runtime-main.b63659b7.js",
+    "runtime-main.js.map": "/B-BOOKS/static/js/runtime-main.b63659b7.js.map",
+    "static/js/2.09e5e246.chunk.js": "/B-BOOKS/static/js/2.09e5e246.chunk.js",
+    "static/js/2.09e5e246.chunk.js.map": "/B-BOOKS/static/js/2.09e5e246.chunk.js.map",
+    "index.html": "/B-BOOKS/index.html",
+    "static/css/main.8be11bb2.chunk.css.map": "/B-BOOKS/static/css/main.8be11bb2.chunk.css.map",
+    "static/js/2.09e5e246.chunk.js.LICENSE.txt": "/B-BOOKS/static/js/2.09e5e246.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/B-BOOKS/static/media/error.54e7946d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b63659b7.js",
+    "static/js/2.09e5e246.chunk.js",
+    "static/css/main.8be11bb2.chunk.css",
+    "static/js/main.10b03723.chunk.js"
+  ]
+}
